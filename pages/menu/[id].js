@@ -1,12 +1,13 @@
+import DetailsPage from "@/components/templates/DetailsPage";
 import { useRouter } from "next/router";
 import React from "react";
 
-const Details = () => {
+const Details = ({ data }) => {
   const router = useRouter();
 
   if (router.isFallback) return <h2>Loading page...</h2>;
 
-  return <div>Details</div>;
+  return <DetailsPage {...data} />;
 };
 
 export default Details;
