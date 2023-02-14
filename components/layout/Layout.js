@@ -18,7 +18,9 @@ const Layout = ({ children }) => {
       <div className={styles.container}>{children}</div>
 
       <footer className={styles.footer}>
-        <a href="https://mfgh.vercel.app" target="_blank" rel="noreferrer">Mfgh</a>
+        <a href="https://mfgh.vercel.app" target="_blank" rel="noreferrer">
+          Mfgh
+        </a>
         Next.js course | BotoFood Project &copy;
       </footer>
     </>
