@@ -2,7 +2,7 @@ import Dollar from "../icons/Dollar";
 import Location from "../icons/Location";
 import styles from "./DetailsPage.module.css";
 
-const DetailsPage = ({props}) => {
+const DetailsPage = (props) => {
   const {
     id,
     name,

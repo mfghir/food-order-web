@@ -1,6 +1,5 @@
 import DetailsPage from "@/components/templates/DetailsPage";
 import { useRouter } from "next/router";
-import React from "react";
 
 const Details = ({ data }) => {
   const router = useRouter();
@@ -33,8 +32,9 @@ export async function getStaticProps(context) {
       notFound: true,
     };
   }
+  
   return {
     props: { data },
-    revalidate: +process.env.REVALIDAE,
+    revalidate: +process.env.REVALIDATE,
   };
 }

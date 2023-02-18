@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         </div>
 
         <div className={styles.right}>
-          <Link href="/menue">Menu</Link>
+          <Link href="/menu">Menu</Link>
           <Link href="/categories">Categories</Link>
         </div>
       </header>
